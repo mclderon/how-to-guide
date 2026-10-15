@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Discover easy curly hairstyles for college students, including quick buns, claw clip styles, and simple routines for busy mornings.">
+  <title>Easy Curly Hairstyles for College Students | The Freshman Edit</title>
+  <style>
+    :root {
+      --pink: #f6d8df;
+      --dark: #49343c;
+      --cream: #fffaf7;
+      --accent: #a34568;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--cream);
+      color: var(--dark);
+      line-height: 1.7;
+    }
+    .notice {
+      background: var(--dark);
+      color: white;
+      text-align: center;
+      padding: 12px 18px;
+      font-size: 13px;
+    }
+    header, footer {
+      background: var(--pink);
+      text-align: center;
+      padding: 26px 18px;
+    }
+    .logo {
+      font-family: Georgia, serif;
+      font-size: 34px;
+      font-weight: bold;
+      margin: 0;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px 22px;
+      margin-top: 15px;
+    }
+    nav a {
+      color: var(--dark);
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover, nav a:focus {
+      color: var(--accent);
+      text-decoration: underline;
+    }
+    main { max-width: 850px; margin: auto; padding: 35px 20px; }
+    h1, h2, h3 { font-family: Georgia, serif; line-height: 1.3; }
+    h1 { font-size: clamp(32px, 5vw, 46px); }
+    h2 { margin-top: 35px; }
+    .category { color: var(--accent); font-weight: bold; }
+    .intro, .highlight {
+      background: #fcebef;
+      padding: 25px;
+      border-radius: 15px;
+      margin: 25px 0;
+    }
+    .style-card {
+      background: white;
+      border: 1px solid #f0dce2;
+      border-radius: 12px;
+      padding: 22px;
+      margin: 20px 0;
+    }
+    .time {
+      color: var(--accent);
+      font-size: 14px;
+      font-weight: bold;
+    }
+    a { color: var(--accent); }
+    footer .notice { border-radius: 8px; margin-top: 20px; }
+    @media (max-width: 600px) {
+      .logo { font-size: 29px; }
+      nav { gap: 10px 15px; }
+      .intro, .highlight { padding: 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
+
+  <header>
+    <p class="logo">The Freshman Edit ♡</p>
+    <p>Your college big sister, one tip at a time.</p>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="frat-party-outfits.html">Going Out</a>
+      <a href="curly-hairstyles.html" aria-current="page">Hair</a>
+      <a href="affordable-makeup.html">Beauty</a>
+    </nav>
+  </header>
+
+  <main>
+    <p class="category">HAIR • COLLEGE BEAUTY</p>
+    <h1>Easy Curly Hairstyles for College Students: Cute Looks in Minutes</h1>
+    <p>By Lily Bennett | The Freshman Edit</p>
+
+    <div class="intro">
+      <p>Let's be real: between early classes, late-night studying, and trying to have a social life, spending an hour on your hair isn't always realistic.</p>
+      <p>Luckily, curly hair can look amazing with just a few simple styling tricks. Whether you're heading to class, studying at the library, or getting ready to go out, these hairstyles are easy to recreate in a dorm room.</p>
+    </div>
+
+    <h2>5 Easy Curly Hairstyles to Try</h2>
+
+    <article class="style-card">
+      <p class="time">ABOUT 2 MINUTES</p>
+      <h3>1. The Curly Pineapple Bun</h3>
+      <p>Perfect for second-day curls or mornings when you hit snooze one too many times.</p>
+      <ol>
+        <li>Gently gather your curls toward the top of your head.</li>
+        <li>Secure them loosely with a soft scrunchie.</li>
+        <li>Let your curls fall naturally and adjust any face-framing pieces.</li>
+      </ol>
+      <p><strong>Big sister tip:</strong> Avoid pulling too tightly so your curls keep their shape.</p>
+    </article>
+
+    <article class="style-card">
+      <p class="time">ABOUT 3 MINUTES</p>
+      <h3>2. Half-Up, Half-Down Curls</h3>
+      <p>This is one of the easiest ways to keep hair out of your face while showing off your natural curls.</p>
+      <ol>
+        <li>Separate the top section of your hair.</li>
+        <li>Secure it with a small claw clip or scrunchie.</li>
+        <li>Fluff the remaining curls for volume.</li>
+      </ol>
+      <p><strong>Best for:</strong> Classes, coffee dates, and casual nights out.</p>
+    </article>
+
+    <article class="style-card">
+      <p class="time">ABOUT 2 MINUTES</p>
+      <h3>3. The Claw Clip Updo</h3>
+      <p>A claw clip is a dorm room essential because it can make your hair look styled in seconds.</p>
+      <ol>
+        <li>Gather your hair at the back of your head.</li>
+        <li>Loosely twist it upward.</li>
+        <li>Secure with a clip large enough to hold your curls comfortably.</li>
+      </ol>
+      <p>Leave a few curls loose around your face for a relaxed look.</p>
+    </article>
+
+    <article class="style-card">
+      <p class="time">ABOUT 5 MINUTES</p>
+      <h3>4. Two Front Braids with Natural Curls</h3>
+      <p>This style adds a cute detail without needing to style your entire head.</p>
+      <ol>
+        <li>Separate two small sections near the front of your hair.</li>
+        <li>Loosely braid each section.</li>
+        <li>Secure the ends with small hair ties.</li>
+        <li>Refresh the remaining curls with a little water if needed.</li>
+      </ol>
+      <p><strong>Best for:</strong> Weekend plans, campus events, and pictures with friends.</p>
+    </article>
+
+    <article class="style-card">
+      <p class="time">ABOUT 3 MINUTES</p>
+      <h3>5. The Low Curly Ponytail</h3>
+      <p>For a simple, clean look, a low ponytail is always a good option.</p>
+      <ol>
+        <li>Create a middle or side part.</li>
+        <li>Gather your curls loosely at the nape of your neck.</li>
+        <li>Secure with a satin scrunchie.</li>
+        <li>Adjust your curls and gently smooth flyaways.</li>
+      </ol>
+      <p>This is especially useful on busy school mornings.</p>
+    </article>
+
+    <h2>Simple Dorm Room Curly Hair Essentials</h2>
+    <p>You don't need a cabinet full of expensive products. A basic routine can start with:</p>
+    <ul>
+      <li>A moisturizing leave-in conditioner suited to your hair</li>
+      <li>A curl cream or lightweight styling gel</li>
+      <li>A spray bottle for refreshing curls</li>
+      <li>Soft scrunchies and a comfortable claw clip</li>
+      <li>A satin bonnet or pillowcase for overnight protection</li>
+    </ul>
+
+    <div class="highlight">
+      <h2>Big Sister Advice ♡</h2>
+      <p>Don't compare your curls to someone else's. Different curl patterns need different routines, and figuring out what works for your hair takes time.</p>
+      <p>Some days your curls will look amazing. Other days, a claw clip will save your life. Both are completely normal.</p>
+    </div>
+
+    <h2>How to Refresh Your Curls Before Class</h2>
+    <p>Start by lightly misting sections that need attention. Gently scrunch your curls and apply a small amount of your usual styling product if needed. Let your hair air-dry while you finish getting ready.</p>
+    <p>Be gentle with your curls, and avoid piling on too much product. If your hair feels weighed down, use less the next time.</p>
+
+    <h2>Final Thoughts</h2>
+    <p>Your freshman schedule is already busy enough. Find two or three hairstyles you love and rotate them throughout the week. Looking cute doesn't have to take forever.</p>
+    <p>Getting ready for the weekend? Pair your hairstyle with one of our <a href="frat-party-outfits.html">going-out outfit ideas</a> or try a look from our <a href="affordable-makeup.html">budget-friendly makeup guide</a>.</p>
+  </main>
+
+  <footer>
+    <p><strong>The Freshman Edit ♡</strong></p>
+    <p>Confidence looks good on you.</p>
+    <nav aria-label="Footer navigation">
+      <a href="index.html">Home</a>
+      <a href="frat-party-outfits.html">Going Out</a>
+      <a href="curly-hairstyles.html">Hair</a>
+      <a href="affordable-makeup.html">Beauty</a>
+    </nav>
+    <div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
+  </footer>
+
+</body>
+</html>
