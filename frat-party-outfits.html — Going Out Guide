@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Wondering what to wear to a frat party? Explore cute, comfortable, budget-friendly college party outfits and first-night-out tips.">
+  <title>What to Wear to a Frat Party | The Freshman Edit</title>
+  <style>
+    :root {
+      --pink: #f6d8df;
+      --dark: #49343c;
+      --cream: #fffaf7;
+      --accent: #a34568;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--cream);
+      color: var(--dark);
+      line-height: 1.7;
+    }
+    .notice {
+      background: var(--dark);
+      color: white;
+      text-align: center;
+      padding: 12px 18px;
+      font-size: 13px;
+    }
+    header, footer {
+      background: var(--pink);
+      text-align: center;
+      padding: 26px 18px;
+    }
+    .logo {
+      font-family: Georgia, serif;
+      font-size: 34px;
+      font-weight: bold;
+      margin: 0;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px 22px;
+      margin-top: 15px;
+    }
+    nav a {
+      color: var(--dark);
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover, nav a:focus {
+      color: var(--accent);
+      text-decoration: underline;
+    }
+    main { max-width: 850px; margin: auto; padding: 35px 20px; }
+    h1, h2, h3 { font-family: Georgia, serif; line-height: 1.3; }
+    h1 { font-size: clamp(32px, 5vw, 46px); }
+    h2 { margin-top: 35px; }
+    .category { color: var(--accent); font-weight: bold; }
+    .intro {
+      background: #fcebef;
+      padding: 26px;
+      border-radius: 15px;
+      margin: 25px 0;
+    }
+    .tip {
+      background: white;
+      border-left: 5px solid var(--accent);
+      padding: 15px 22px;
+      margin: 20px 0;
+    }
+    .outfit {
+      padding: 18px 0;
+      border-bottom: 1px solid #ebd8df;
+    }
+    a { color: var(--accent); }
+    footer .notice { border-radius: 8px; margin-top: 20px; }
+    @media (max-width: 600px) {
+      .logo { font-size: 29px; }
+      nav { gap: 10px 15px; }
+      .intro { padding: 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
+
+  <header>
+    <p class="logo">The Freshman Edit ♡</p>
+    <p>Your college big sister, one tip at a time.</p>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="frat-party-outfits.html" aria-current="page">Going Out</a>
+      <a href="curly-hairstyles.html">Hair</a>
+      <a href="affordable-makeup.html">Beauty</a>
+    </nav>
+  </header>
+
+  <main>
+    <p class="category">GOING OUT • FRESHMAN FASHION</p>
+    <h1>What to Wear to a Frat Party: Your Freshman Girl Guide</h1>
+    <p>By Lily Bennett | The Freshman Edit</p>
+
+    <div class="intro">
+      <p>Okay girl, you've been invited to a party and suddenly everything in your closet looks wrong. Sound familiar?</p>
+      <p>First things first: you don't need an expensive outfit to look cute. The best college party outfit is something that makes you feel confident, comfortable, and ready to have fun.</p>
+    </div>
+
+    <h2>5 Easy Frat Party Outfit Ideas</h2>
+
+    <section class="outfit">
+      <h3>1. Jeans + a Cute Going-Out Top</h3>
+      <p>You genuinely cannot go wrong with your favorite jeans and a fun top. Try straight-leg jeans with a fitted black top, a simple necklace, and sneakers or comfortable boots.</p>
+      <p><strong>Best for:</strong> Casual parties and nights when you don't know the dress code.</p>
+    </section>
+
+    <section class="outfit">
+      <h3>2. Mini Skirt + Oversized Jacket</h3>
+      <p>Pair a denim or black mini skirt with a basic fitted top and an oversized jacket. Add boots and a small crossbody bag to finish the look.</p>
+      <p><strong>Best for:</strong> A slightly dressier night out. Bring a warm layer when it's cold.</p>
+    </section>
+
+    <section class="outfit">
+      <h3>3. Black Pants + Statement Top</h3>
+      <p>Black pants are a college wardrobe lifesaver. Wear them with a colorful or textured top and simple accessories for an easy outfit that feels a little more dressed up.</p>
+      <p><strong>Best for:</strong> Looking polished while staying comfortable.</p>
+    </section>
+
+    <section class="outfit">
+      <h3>4. A Casual Dress + Sneakers</h3>
+      <p>A simple dress with sneakers is an easy one-piece outfit. Add a cardigan or denim jacket if you want an extra layer.</p>
+      <p><strong>Best for:</strong> Warm-weather parties and casual social events.</p>
+    </section>
+
+    <section class="outfit">
+      <h3>5. Matching Set + Your Favorite Accessories</h3>
+      <p>Matching sets make getting ready so much easier. A coordinated top and bottom looks intentional without needing a complicated outfit plan.</p>
+      <p><strong>Best for:</strong> Last-minute plans when your friends are already waiting.</p>
+    </section>
+
+    <h2>What Shoes Should You Wear?</h2>
+    <p>Comfortable shoes are always a good idea. You may be standing, walking, or dancing for hours. Sneakers, flat boots, or supportive low heels are usually more practical than shoes you can barely walk in.</p>
+    <p>Choose shoes that you won't be upset about getting dirty, especially at crowded house parties.</p>
+
+    <div class="tip">
+      <h3>Big Sister Tip ♡</h3>
+      <p>Never feel pressured to wear something just because everyone else is wearing it. Feeling confident matters more than following a trend.</p>
+    </div>
+
+    <h2>What to Bring on a Night Out</h2>
+    <ul>
+      <li>Your phone and a portable charger if needed</li>
+      <li>Your keys and identification</li>
+      <li>A small wallet or secure card holder</li>
+      <li>Lip gloss or lip balm</li>
+      <li>A jacket when the weather calls for one</li>
+    </ul>
+
+    <h2>First Frat Party? Read This Before You Go</h2>
+    <p>Go with friends you trust and make a plan for getting home. Keep track of your belongings, look out for one another, and arrange a safe ride or walk home together.</p>
+    <p>You never have to drink alcohol, accept a drink, or stay somewhere that makes you uncomfortable. It's completely okay to leave early or skip the party altogether.</p>
+
+    <h2>Final Outfit Advice</h2>
+    <p>The secret to a great party outfit isn't the price tag. It's choosing something you can actually enjoy your night in. Rewear your favorite pieces, borrow from your friends with permission, and make the outfit your own.</p>
+    <p>Need help finishing your look? Check out our <a href="curly-hairstyles.html">easy curly hairstyles</a> and <a href="affordable-makeup.html">affordable makeup guide</a>.</p>
+  </main>
+
+  <footer>
+    <p><strong>The Freshman Edit ♡</strong></p>
+    <p>Confidence looks good on you.</p>
+    <nav aria-label="Footer navigation">
+      <a href="index.html">Home</a>
+      <a href="frat-party-outfits.html">Going Out</a>
+      <a href="curly-hairstyles.html">Hair</a>
+      <a href="affordable-makeup.html">Beauty</a>
+    </nav>
+    <div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
+  </footer>
+
+</body>
+</html>
