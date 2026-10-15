@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The Freshman Edit is your big sister guide to college fashion, beauty, going out, and surviving freshman year.">
+  <title>The Freshman Edit | Your College Big Sister Guide</title>
+  <style>
+    :root {
+      --pink: #f6d8df;
+      --dark: #49343c;
+      --cream: #fffaf7;
+      --accent: #a34568;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--cream);
+      color: var(--dark);
+      line-height: 1.7;
+    }
+    .notice {
+      background: #49343c;
+      color: white;
+      text-align: center;
+      padding: 12px 18px;
+      font-size: 13px;
+    }
+    header {
+      background: var(--pink);
+      text-align: center;
+      padding: 28px 15px;
+    }
+    .logo {
+      font-family: Georgia, serif;
+      font-size: 36px;
+      font-weight: bold;
+      margin: 0;
+    }
+    .tagline { margin: 5px 0 18px; }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px 22px;
+    }
+    nav a {
+      color: var(--dark);
+      font-weight: bold;
+      text-decoration: none;
+    }
+    nav a:hover, nav a:focus {
+      color: var(--accent);
+      text-decoration: underline;
+    }
+    main { max-width: 1050px; margin: auto; padding: 30px 20px; }
+    .hero {
+      text-align: center;
+      padding: 65px 22px;
+      background: #fcebef;
+      border-radius: 18px;
+    }
+    h1, h2, h3 { font-family: Georgia, serif; line-height: 1.3; }
+    h1 { font-size: clamp(32px, 5vw, 52px); }
+    h2 { font-size: 29px; }
+    .hero p { max-width: 650px; margin: 18px auto; }
+    .button {
+      display: inline-block;
+      background: var(--accent);
+      color: white;
+      text-decoration: none;
+      padding: 12px 22px;
+      border-radius: 25px;
+      margin-top: 12px;
+      font-weight: bold;
+    }
+    .button:hover { background: #803451; }
+    .section-title { text-align: center; margin-top: 55px; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+      margin-top: 25px;
+    }
+    .card {
+      background: white;
+      border: 1px solid #f1dce2;
+      border-radius: 15px;
+      padding: 25px;
+      box-shadow: 0 3px 12px #49343c0c;
+    }
+    .card .category {
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .card a { color: var(--accent); font-weight: bold; }
+    .about {
+      background: #fcebef;
+      padding: 32px;
+      border-radius: 16px;
+      margin: 55px 0;
+    }
+    footer {
+      background: var(--pink);
+      padding: 28px 18px;
+      text-align: center;
+    }
+    footer nav { margin: 15px 0; }
+    footer .notice { border-radius: 8px; }
+    @media (max-width: 700px) {
+      .cards { grid-template-columns: 1fr; }
+      .hero { padding: 40px 18px; }
+      .logo { font-size: 30px; }
+      nav { gap: 10px 15px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
+
+  <header>
+    <p class="logo">The Freshman Edit ♡</p>
+    <p class="tagline">Your college big sister, one tip at a time.</p>
+    <nav aria-label="Main navigation">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="frat-party-outfits.html">Going Out</a>
+      <a href="curly-hairstyles.html">Hair</a>
+      <a href="affordable-makeup.html">Beauty</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p>FASHION • BEAUTY • COLLEGE LIFE</p>
+      <h1>Hey girl, welcome to your freshman era!</h1>
+      <p>New campus, new friends, new experiences, and probably a million questions. Think of us as the big sister you can turn to for outfit ideas, beauty tips, and advice for figuring out college life.</p>
+      <p>We're here to help you feel confident, stay on budget, and make freshman year your own.</p>
+      <a class="button" href="#guides">Explore the Guides ♡</a>
+    </section>
+
+    <section id="guides">
+      <h2 class="section-title">Your Freshman Survival Guides</h2>
+      <div class="cards">
+        <article class="card">
+          <p class="category">Going Out</p>
+          <h3>What to Wear to a Frat Party</h3>
+          <p>From cute jeans to comfortable shoes, discover outfit ideas that look good without trying too hard.</p>
+          <a href="frat-party-outfits.html">Find your outfit →</a>
+        </article>
+
+        <article class="card">
+          <p class="category">Hair & Self-Care</p>
+          <h3>Easy Curly Hairstyles for College Students</h3>
+          <p>Running late for your 8 a.m.? These easy hairstyles help you look put together without spending forever in the mirror.</p>
+          <a href="curly-hairstyles.html">Get inspired →</a>
+        </article>
+
+        <article class="card">
+          <p class="category">Beauty on a Budget</p>
+          <h3>Affordable Makeup Brands for College Students</h3>
+          <p>Build your everyday makeup routine with budget-friendly beauty favorites that won't drain your bank account.</p>
+          <a href="affordable-makeup.html">Explore beauty →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="about">
+      <h2>Meet Your Virtual Big Sister</h2>
+      <p>Hey! I'm Lily Bennett, the fictional student voice behind The Freshman Edit. I created this guide for every girl who has ever stood in front of her closet wondering what to wear, struggled to get ready before class, or felt nervous about finding her place on campus.</p>
+      <p>College isn't about having everything figured out. It's about trying new things, making memories, finding your people, and learning what makes you feel like yourself.</p>
+      <p><strong>Big sister reminder:</strong> You don't have to change who you are to fit in. The right friends will love you for you.</p>
+    </section>
+
+    <section>
+      <h2>Freshman Year Reminders ♡</h2>
+      <p>Call home when you need to. Make time for yourself. Don't compare your college experience to everyone's social media posts. And remember that a fun weekend doesn't have to mean spending all your money.</p>
+      <p>Whether you're getting ready for your first night out or heading to class with a messy bun and an iced coffee, you're doing just fine.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>The Freshman Edit ♡</strong></p>
+    <p>Confidence looks good on you.</p>
+    <nav aria-label="Footer navigation">
+      <a href="index.html">Home</a>
+      <a href="frat-party-outfits.html">Going Out</a>
+      <a href="curly-hairstyles.html">Hair</a>
+      <a href="affordable-makeup.html">Beauty</a>
+    </nav>
+    <div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
+  </footer>
+
+</body>
+</html>
