@@ -1,0 +1,228 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore affordable makeup brands for college students and learn how to build an easy everyday beauty routine on a freshman budget.">
+  <title>Affordable Makeup Brands for College Students | The Freshman Edit</title>
+  <style>
+    :root {
+      --pink: #f6d8df;
+      --dark: #49343c;
+      --cream: #fffaf7;
+      --accent: #a34568;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--cream);
+      color: var(--dark);
+      line-height: 1.7;
+    }
+    .notice {
+      background: var(--dark);
+      color: white;
+      text-align: center;
+      padding: 12px 18px;
+      font-size: 13px;
+    }
+    header, footer {
+      background: var(--pink);
+      text-align: center;
+      padding: 26px 18px;
+    }
+    .logo {
+      font-family: Georgia, serif;
+      font-size: 34px;
+      font-weight: bold;
+      margin: 0;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px 22px;
+      margin-top: 15px;
+    }
+    nav a {
+      color: var(--dark);
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover, nav a:focus {
+      color: var(--accent);
+      text-decoration: underline;
+    }
+    main { max-width: 850px; margin: auto; padding: 35px 20px; }
+    h1, h2, h3 { font-family: Georgia, serif; line-height: 1.3; }
+    h1 { font-size: clamp(32px, 5vw, 46px); }
+    h2 { margin-top: 35px; }
+    .category { color: var(--accent); font-weight: bold; }
+    .intro, .highlight {
+      background: #fcebef;
+      padding: 25px;
+      border-radius: 15px;
+      margin: 25px 0;
+    }
+    .brand-card {
+      background: white;
+      padding: 22px;
+      border: 1px solid #f0dce2;
+      border-radius: 12px;
+      margin: 18px 0;
+    }
+    .brand-card h3 { margin-top: 0; }
+    .budget-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    .budget-table th, .budget-table td {
+      padding: 12px;
+      border: 1px solid #e7ccd5;
+      text-align: left;
+    }
+    .budget-table th { background: var(--pink); }
+    a { color: var(--accent); }
+    footer .notice { border-radius: 8px; margin-top: 20px; }
+    @media (max-width: 600px) {
+      .logo { font-size: 29px; }
+      nav { gap: 10px 15px; }
+      .intro, .highlight { padding: 20px; }
+      .budget-table th, .budget-table td {
+        padding: 8px;
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
+
+  <header>
+    <p class="logo">The Freshman Edit ♡</p>
+    <p>Your college big sister, one tip at a time.</p>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="frat-party-outfits.html">Going Out</a>
+      <a href="curly-hairstyles.html">Hair</a>
+      <a href="affordable-makeup.html" aria-current="page">Beauty</a>
+    </nav>
+  </header>
+
+  <main>
+    <p class="category">BEAUTY • COLLEGE BUDGET</p>
+    <h1>Affordable Makeup Brands for College Students: Look Cute, Spend Less</h1>
+    <p>By Lily Bennett | The Freshman Edit</p>
+
+    <div class="intro">
+      <p>Girl, we get it. Between textbooks, groceries, coffee runs, and weekend plans, your college budget disappears fast.</p>
+      <p>The good news? You don't need luxury makeup to create a cute everyday look. There are plenty of affordable beauty brands worth exploring, whether you're heading to class or getting ready with your roommates.</p>
+    </div>
+
+    <h2>5 Affordable Makeup Brands to Know</h2>
+
+    <article class="brand-card">
+      <h3>1. e.l.f. Cosmetics</h3>
+      <p><strong>Great for:</strong> Primers, blush, brushes, and everyday makeup basics.</p>
+      <p>e.l.f. is a popular starting point for college students who want to experiment with makeup without spending too much. Its range includes simple essentials and trend-inspired products.</p>
+      <p><strong>Big sister tip:</strong> Start with one product you'll use regularly rather than buying an entire collection.</p>
+    </article>
+
+    <article class="brand-card">
+      <h3>2. NYX Professional Makeup</h3>
+      <p><strong>Great for:</strong> Lip liners, lip gloss, eyeliner, and colorful makeup looks.</p>
+      <p>NYX offers plenty of options for experimenting with your personal style. It's a useful brand to explore if you love changing your makeup for different occasions.</p>
+      <p><strong>Big sister tip:</strong> A lip liner and gloss can be an easy way to change your look for a night out.</p>
+    </article>
+
+    <article class="brand-card">
+      <h3>3. Maybelline</h3>
+      <p><strong>Great for:</strong> Mascara, concealer, and complexion products.</p>
+      <p>Maybelline has a wide selection of everyday makeup products. If you're putting together a simple five-minute routine, its drugstore options are worth comparing.</p>
+      <p><strong>Big sister tip:</strong> Choose a foundation or concealer shade that matches your skin rather than following someone else's recommendation blindly.</p>
+    </article>
+
+    <article class="brand-card">
+      <h3>4. Wet n Wild</h3>
+      <p><strong>Great for:</strong> Highlighter, blush, eyeshadow, and inexpensive makeup basics.</p>
+      <p>Wet n Wild is an option for trying different colors and styles while keeping spending under control.</p>
+      <p><strong>Big sister tip:</strong> Pick versatile shades that work for both daytime and going-out looks.</p>
+    </article>
+
+    <article class="brand-card">
+      <h3>5. Essence Cosmetics</h3>
+      <p><strong>Great for:</strong> Mascara, lip products, and simple everyday beauty essentials.</p>
+      <p>Essence is another budget-friendly brand to explore if you want to build a small makeup collection for college.</p>
+      <p><strong>Big sister tip:</strong> Read product descriptions and reviews before buying so you can choose what suits your preferences.</p>
+    </article>
+
+    <h2>Build a Makeup Bag on a $40 Budget</h2>
+    <p>Here's an example of how you could divide a $40 makeup budget. These are spending targets, not actual product prices.</p>
+
+    <table class="budget-table">
+      <thead>
+        <tr>
+          <th scope="col">Makeup Essential</th>
+          <th scope="col">Budget Target</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Concealer</td><td>$8</td></tr>
+        <tr><td>Mascara</td><td>$7</td></tr>
+        <tr><td>Blush</td><td>$7</td></tr>
+        <tr><td>Lip gloss</td><td>$6</td></tr>
+        <tr><td>Brow product</td><td>$6</td></tr>
+        <tr><td>Basic makeup sponge</td><td>$6</td></tr>
+        <tr><th scope="row">Total Budget</th><th>$40</th></tr>
+      </tbody>
+    </table>
+
+    <h2>Easy 5-Minute Makeup Routine Before Class</h2>
+    <ol>
+      <li><strong>Prep your skin:</strong> Start with your usual moisturizer and daytime sunscreen.</li>
+      <li><strong>Apply concealer:</strong> Use a small amount where you want coverage.</li>
+      <li><strong>Add blush:</strong> Bring a little color to your cheeks.</li>
+      <li><strong>Apply mascara:</strong> Use your favorite mascara if you enjoy wearing it.</li>
+      <li><strong>Finish with lip gloss:</strong> Add a comfortable lip product and you're ready.</li>
+    </ol>
+    <p>You can skip any step you don't like. Makeup should be something you enjoy, not another thing to stress about before class.</p>
+
+    <h2>Budget-Friendly Beauty Shopping Tips</h2>
+    <ul>
+      <li>Set a spending limit before shopping.</li>
+      <li>Use up products you already own before buying replacements.</li>
+      <li>Compare prices and check for student discounts or store promotions.</li>
+      <li>Avoid buying something just because it's trending on TikTok.</li>
+      <li>Don't share eye or lip makeup with roommates or friends.</li>
+      <li>Remove makeup before bed and keep your brushes clean.</li>
+    </ul>
+
+    <div class="highlight">
+      <h2>Big Sister Reminder ♡</h2>
+      <p>Your makeup collection does not need to look like a beauty influencer's. You can create a routine that makes you feel confident with just a few products.</p>
+      <p>And remember, you're just as worthy of confidence on the days you don't wear any makeup at all.</p>
+    </div>
+
+    <h2>Final Thoughts</h2>
+    <p>College is the perfect time to experiment with your personal style, but you don't have to overspend to do it. Start small, find products you genuinely enjoy, and focus on what works for your skin, routine, and budget.</p>
+    <p>Need more getting-ready inspiration? Explore our <a href="curly-hairstyles.html">easy curly hairstyles for college students</a> or find your next <a href="frat-party-outfits.html">going-out outfit</a>.</p>
+  </main>
+
+  <footer>
+    <p><strong>The Freshman Edit ♡</strong></p>
+    <p>Confidence looks good on you.</p>
+    <nav aria-label="Footer navigation">
+      <a href="index.html">Home</a>
+      <a href="frat-party-outfits.html">Going Out</a>
+      <a href="curly-hairstyles.html">Hair</a>
+      <a href="affordable-makeup.html">Beauty</a>
+    </nav>
+    <div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
+  </footer>
+
+</body>
+</html>
