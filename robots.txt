@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /how-to-guide/
+
+Sitemap: https://mclderon.github.io/how-to-guide/sitemap.xml
